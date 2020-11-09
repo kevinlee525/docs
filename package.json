@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "VuePress",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinlee525/docs.git"
+  },
+  "author": "kevinlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinlee525/docs/issues"
+  },
+  "homepage": "https://github.com/kevinlee525/docs#readme"
+}
