@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/kevinlee525/docs/issues"
   },
-  "homepage": "https://github.com/kevinlee525/docs#readme"
+  "homepage": "https://github.com/kevinlee525/docs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1"
+  }
 }

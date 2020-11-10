@@ -2,6 +2,7 @@ module.exports = {
     themeConfig: {
         logo: '/assets/img/favicon.ico',
         // navbar:false,
+        sidebar: 'auto',
         nav: [{
                 text: 'Home',
                 link: '/'
@@ -9,6 +10,10 @@ module.exports = {
             {
                 text: 'About',
                 link: '/about/'
+            },
+            {
+                text: 'Quanxue',
+                link: '/quanxue/'
             },
             {
                 text: 'Config',
@@ -32,5 +37,8 @@ module.exports = {
                 ]
             }
         ]
+    },
+    plugins: {
+        '@vuepress/back-to-top': true
     }
 }
