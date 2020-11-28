@@ -1,5 +1,6 @@
 ---
 home: true
+title: hello
 # heroImage: /hero.png
 actionText: Get Started →
 actionLink: /guide/
@@ -12,5 +13,7 @@ features:
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
-# docs
-VuePress Go!
+
+## docs
+
+VuePress Go

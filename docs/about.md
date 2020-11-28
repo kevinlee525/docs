@@ -1,8 +1,13 @@
 ---
-navbar: false
+# navbar: false
+title: 关于
+categories:
+ - frontEnd
+tags:
+ - vue
 ---
 
-# About Me
+## About
 
 ## Come on VuePress
 

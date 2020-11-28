@@ -1,15 +1,31 @@
 module.exports = {
     themeConfig: {
         logo: '/assets/img/favicon.ico',
-        // navbar:false,
+        theme: 'reco',
         sidebar: 'auto',
+        blogConfig: {
+            category: {
+                location: 2, // 在导航栏菜单中所占的位置，默认2
+                text: 'Category' // 默认文案 “分类”
+            },
+            tag: {
+                location: 3, // 在导航栏菜单中所占的位置，默认3
+                text: 'Tag' // 默认文案 “标签”
+            }
+        },
         nav: [{
+                text: 'TimeLine',
+                link: '/timeline/',
+                icon: 'reco-date'
+            },
+            {
                 text: 'Home',
                 link: '/'
             },
             {
                 text: 'About',
-                link: '/about/'
+                link: '/about/',
+                icon: 'eco-coding'
             },
             {
                 text: 'Quanxue',
@@ -38,7 +54,6 @@ module.exports = {
             }
         ]
     },
-    plugins: {
-        '@vuepress/back-to-top': true
-    }
+    // navbar:false,
+    plugins: ['@vuepress/back-to-top']
 }
